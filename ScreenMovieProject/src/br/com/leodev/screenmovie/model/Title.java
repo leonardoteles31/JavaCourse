@@ -1,6 +1,8 @@
 package br.com.leodev.screenmovie.model;
 
-public class Title {
+import br.com.leodev.screenmovie.calculations.Classifiable;
+
+public class Title extends Classifiable {
     private String title;
     private int releaseYear;
     private boolean includedInPlan;
